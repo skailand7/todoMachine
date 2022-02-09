@@ -1,0 +1,7 @@
+.todoCounter {
+  display: flex;
+  align-items: center;
+}
+.todoCounter h2 {
+  text-align: center;
+}

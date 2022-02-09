@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+}
+#root {
+  background: rgb(105, 219, 208);
+  background: linear-gradient(
+    90deg,
+    rgba(105, 219, 208, 1) 0%,
+    rgba(149, 232, 225, 1) 15%,
+    rgba(229, 254, 255, 1) 45%,
+    rgba(233, 239, 218, 1) 66%,
+    rgba(236, 229, 195, 1) 100%
+  );
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(300px, 500px);
+  grid-template-rows: 100px 60px 1fr;
+  place-content: center;
+  position: relative;
+}

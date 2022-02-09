@@ -1,0 +1,12 @@
+.inputSearch {
+  border: 1px solid #333;
+  color: #333;
+  width: 70%;
+  height: 3rem;
+  justify-self: center;
+  border-radius: 8px;
+  text-align: center;
+}
+.inputSearch:focus {
+  outline: 1px solid cyan;
+}

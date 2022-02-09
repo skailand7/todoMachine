@@ -1,0 +1,23 @@
+.btnAddTodo {
+  background-color: #69dbd0;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(0);
+  transition: 0.5s ease;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+}
+.btnAddTodo:hover {
+  border: 1px solid white;
+  transform: rotate(180deg);
+}

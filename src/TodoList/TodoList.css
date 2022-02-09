@@ -1,0 +1,7 @@
+.sectionList {
+  position: relative;
+}
+.sectionList ul {
+  margin: 0;
+  padding: 0;
+}

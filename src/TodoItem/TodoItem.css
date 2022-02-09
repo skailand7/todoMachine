@@ -1,0 +1,20 @@
+.todoItem {
+  background-color: #eee5e9;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.todoItem p {
+  margin: 0;
+}
+.todoItem span {
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}

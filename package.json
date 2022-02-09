@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "homepage": "https://skailand7.github.io/todosMachine/"
+  "homepage": "git@github.com:skailand7/todosMachine.git"
 }
